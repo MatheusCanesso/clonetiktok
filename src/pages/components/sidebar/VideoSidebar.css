@@ -1,0 +1,66 @@
+.videoSidebar{
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    color: white;
+}
+
+.videoSidebar__options{
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 4px #00000085;
+}
+
+.videoSidebar__profile{
+    text-align: center;
+}
+
+.videoSidebarProfile__image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.205);
+}
+
+.buttonIcon{
+    position: absolute;
+    top: 11%;
+    right: 27px;
+    text-align: center;
+    background-color: #e33258;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.buttonIconPlus{
+    width: 100%;
+    height: 85%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttonIconLikeCheio{
+    cursor: pointer;
+}
+
+.buttonIconLikeVazio{
+    cursor: pointer;
+}
+
+.buttonIconSaveCheio{
+    cursor: pointer;
+}
+
+.buttonIconSaveVazio{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 440px){
+    .videoSidebar{
+        top: 46%;
+    }
+  }
